@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Natural Skin Care Products | Natural Glow</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explore Natural Glow's full range of natural and organic skin care products for all skin types, targeting pigmentation, dullness, oily skin, dry skin, and more. Free delivery available.">
+    <meta name="keywords" content="natural skin care products, organic skincare shop, glowing skin products, best natural serums, natural moisturizers, oily skin solutions, dry skin remedies, vitamin C products, natural tone cream, anti-pimple serum">
+    <meta name="author" content="Natural Glow Skincare">
+
+    <!-- Tailwind CSS CDN for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the Inter font */
+        body {
+            font-family: "Inter", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #333; /* Default text color */
+            background-image: url('uploaded:Teami-FullSkincareLine-1.webp-cc392f11-ac4a-4567-8fd7-6c183165d248'); /* Background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-attachment: fixed; /* Keep the background fixed during scroll */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+            position: relative; /* Needed for the overlay */
+        }
+
+        /* Overlay for better text readability on top of the background image */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.8); /* White overlay with 80% opacity for better contrast */
+            z-index: -1; /* Place it behind the content */
+        }
+
+        /* Ensure content is above the overlay */
+        header, main, footer {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm py-4 px-6 md:px-12">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo/Site Title -->
+            <a href="index.html" class="text-2xl font-bold text-green-700" aria-label="Natural Glow Home">
+                Natural Glow
+            </a>
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex space-x-6" aria-label="Main Navigation">
+                <a href="index.html" class="text-gray-600 hover:text-green-700 transition-colors duration-200 font-medium">Home</a>
+                <a href="product.html" class="text-gray-600 hover:text-green-700 transition-colors duration-200 font-medium">Shop</a>
+                <a href="#" class="text-gray-600 hover:text-green-700 transition-colors duration-200 font-medium">About Us</a>
+                <a href="#" class="text-gray-600 hover:text-green-700 transition-colors duration-200 font-medium">Blog</a>
+                <a href="contact.html" class="text-gray-600 hover:text-green-700 transition-colors duration-200 font-medium">Contact</a>
+            </nav>
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button class="md:hidden text-gray-600 hover:text-green-700 focus:outline-none" aria-label="Open mobile menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Product Listing Section -->
+        <section class="py-16 px-4 md:px-12 bg-white bg-opacity-90 rounded-lg shadow-lg mx-auto my-8 max-w-6xl" aria-labelledby="product-listing-heading">
+            <div class="container mx-auto">
+                <h1 id="product-listing-heading" class="text-3xl md:text-4xl font-bold text-center text-green-800 mb-12">Our Complete Range of Natural Skin Care Products</h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Product Card 1: Oily Skin -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/400x300/F0F9F1/5B8C6C?text=Oil+Control+Serum" alt="Natural Oil Control & Pimples Serum for Oily Skin" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-green-700 mb-2">Oil Control & Pimples Serum</h3>
+                            <p class="text-gray-600 text-sm mb-4">
+                                Ideal for ages 16-25. Crafted with natural ingredients to control oil and prevent pimples, promoting clear skin.
+                                <span class="block text-xs text-gray-500 mt-1">Free Delivery Available</span>
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-green-800 font-bold text-lg">₹250</span>
+                                <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Card 2: Dry to Combination Skin -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/400x300/F0F9F1/5B8C6C?text=Vitamin+C+Glow" alt="Natural Vitamin C Glowing Serum for Dry to Combination Skin" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-green-700 mb-2">Vitamin C Glowing Serum</h3>
+                            <p class="text-gray-600 text-sm mb-4">
+                                For ages 16-25. Enriched with Vitamin C and natural ingredients for radiant, glowing skin, targeting dullness.
+                                <span class="block text-xs text-gray-500 mt-1">Free Delivery Available</span>
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-green-800 font-bold text-lg">₹270</span>
+                                <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Card 3: Dry Skin -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/400x300/F0F9F1/5B8C6C?text=Natural+Tone+Cream" alt="Natural Skin Tone Cream for Dry Skin" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-green-700 mb-2">Natural Skin Tone Cream</h3>
+                            <p class="text-gray-600 text-sm mb-4">
+                                Formulated with natural ingredients to give your dry skin a balanced, natural tone and reduce pigmentation.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-green-800 font-bold text-lg">₹246</span>
+                                <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Card 4: All Skin Types -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/400x300/F0F9F1/5B8C6C?text=All+Day+Fresh" alt="All Day Fresh Moisturizer for All Skin Types" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-green-700 mb-2">All Day Fresh Moisturizer</h3>
+                            <p class="text-gray-600 text-sm mb-4">
+                                Suitable for all skin types, keeping your skin fresh and glowing throughout the day with natural hydration.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-green-800 font-bold text-lg">₹130</span>
+                                <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more product cards here as needed -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/400x300/F0F9F1/5B8C6C?text=Herbal+Face+Mask" alt="Natural Herbal Face Mask for Detox" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-green-700 mb-2">Herbal Detox Face Mask</h3>
+                            <p class="text-gray-600 text-sm mb-4">
+                                Deeply cleanse and detoxify your skin with our natural herbal mask.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-green-800 font-bold text-lg">₹320</span>
+                                <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/400x300/F0F9F1/5B8C6C?text=Rosewater+Toner" alt="Organic Rosewater Toner for Hydration" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-green-700 mb-2">Organic Rosewater Toner</h3>
+                            <p class="text-gray-600 text-sm mb-4">
+                                Refresh and hydrate your skin with pure rosewater, perfect for all skin types.
+                            </p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-green-800 font-bold text-lg">₹180</span>
+                                <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 bg-opacity-90 text-white py-10 px-4 md:px-12 rounded-lg shadow-lg mx-auto my-8 max-w-6xl" aria-label="Footer Navigation">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h3 class="text-xl font-bold mb-4">Natural Glow</h3>
+                <p class="text-gray-400 text-sm">
+                    Your trusted source for natural and organic skin care.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="product.html" class="text-gray-400 hover:text-white transition-colors duration-200">Shop All Natural Products</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">FAQs</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Shipping & Returns</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                <p class="text-gray-400 text-sm">
+                    Email: info@naturalglow.com<br>
+                    Phone: (123) 456-7890<br>
+                    123 Green Lane, Eco City, Earth
+                </p>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-sm">
+            &copy; 2025 Natural Glow. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
